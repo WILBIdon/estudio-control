@@ -3,7 +3,7 @@ import {
     Save,
     User,
     BookOpen,
-    School,
+    Heart,
     Target,
     Activity,
     AlertCircle,
@@ -187,10 +187,10 @@ export default function App() {
                 <div className="max-w-6xl mx-auto flex justify-between items-center">
                     <div>
                         <h1 className="text-xl font-bold flex items-center gap-2">
-                            <School className="w-6 h-6" />
-                            EduControl
+                            <Heart className="w-6 h-6" fill="white" />
+                            Ángeles de Corazón
                         </h1>
-                        <p className="text-orange-100 text-xs mt-0.5">Seguimiento de Estudiantes</p>
+                        <p className="text-orange-100 text-xs mt-0.5">App de Control Educativo</p>
                     </div>
 
                     <div className="flex items-center gap-2">
